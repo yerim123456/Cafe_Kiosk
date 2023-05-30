@@ -187,9 +187,9 @@
     <ClInclude Include="Cafe_KioskDoc.h" />
     <ClInclude Include="Cafe_KioskView.h" />
     <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="CHomeDlg.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="MainFrm.h" />
-    <ClInclude Include="Menu1.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
@@ -199,8 +199,8 @@
     <ClCompile Include="Cafe_KioskDoc.cpp" />
     <ClCompile Include="Cafe_KioskView.cpp" />
     <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="CHomeDlg.cpp" />
     <ClCompile Include="MainFrm.cpp" />
-    <ClCompile Include="Menu1.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -215,6 +215,8 @@
     <None Include="res\CafeKiosk.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
     <Image Include="res\Cafe_Kiosk.ico" />
     <Image Include="res\Cafe_KioskDoc.ico" />
     <Image Include="res\Toolbar.bmp" />

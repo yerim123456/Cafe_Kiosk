@@ -1,4 +1,2 @@
-﻿  Menu1.cpp
-C:\c소스\윈도우프로그래밍\Cafe_Kiosk\Cafe_Kiosk\Menu1.cpp(31,2): error C2065: 'IDC_SCROLLBAR1': 선언되지 않은 식별자입니다.
-C:\c소스\윈도우프로그래밍\Cafe_Kiosk\Cafe_Kiosk\Menu1.cpp(32,2): error C2065: 'IDC_HOTKEY2': 선언되지 않은 식별자입니다.
-C:\c소스\윈도우프로그래밍\Cafe_Kiosk\Cafe_Kiosk\Menu1.cpp(33,2): error C2065: 'IDC_RICHEDIT21': 선언되지 않은 식별자입니다.
+﻿  Cafe_KioskView.cpp
+  Cafe_Kiosk.vcxproj -> C:\c소스\윈도우프로그래밍\Cafe_Kiosk\x64\Debug\Cafe_Kiosk.exe

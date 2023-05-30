@@ -12,10 +12,12 @@
 
 #include "Cafe_KioskDoc.h"
 #include "Cafe_KioskView.h"
+#include "CHomeDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
+
 
 
 // CCafeKioskView
@@ -27,6 +29,7 @@ BEGIN_MESSAGE_MAP(CCafeKioskView, CView)
 	ON_COMMAND(ID_FILE_PRINT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_DIRECT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CView::OnFilePrintPreview)
+	ON_WM_RBUTTONDOWN()
 END_MESSAGE_MAP()
 
 // CCafeKioskView 생성/소멸
@@ -103,3 +106,14 @@ CCafeKioskDoc* CCafeKioskView::GetDocument() const // 디버그되지 않은 버
 
 
 // CCafeKioskView 메시지 처리기
+
+
+void CCafeKioskView::OnRButtonDown(UINT nFlags, CPoint point)
+{
+	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
+	CHomeDlg* pHome = new CHomeDlg;
+	
+	pHome->DoModal(); 
+
+	CView::OnRButtonDown(nFlags, point);
+}
