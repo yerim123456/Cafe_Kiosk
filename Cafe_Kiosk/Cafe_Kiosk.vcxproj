@@ -223,10 +223,16 @@
     <None Include="res\CafeKiosk.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\Coffee.ico" />
+    <Image Include="..\..\..\..\Downloads\Coffee2.ico" />
+    <Image Include="..\..\..\..\Downloads\Coffee3.ico" />
+    <Image Include="..\..\..\..\Downloads\Coffee4.ico" />
+    <Image Include="..\..\..\..\Downloads\Coffee5.ico" />
     <Image Include="..\..\..\..\Downloads\Coffee_1.ico" />
     <Image Include="res\Cafe_Kiosk.ico" />
     <Image Include="res\Cafe_KioskDoc.ico" />
     <Image Include="res\icon1.ico" />
+    <Image Include="res\icon3.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

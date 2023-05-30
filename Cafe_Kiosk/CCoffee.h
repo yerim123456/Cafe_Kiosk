@@ -1,6 +1,5 @@
 ﻿#pragma once
 
-
 // CCoffee 대화 상자
 
 class CCoffee : public CDialogEx
@@ -21,6 +20,7 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
+	static const int LENGTH = 5;
 	CListCtrl m_listCoffee;
 	CImageList m_imgCoffeeList;
 	virtual BOOL OnInitDialog();

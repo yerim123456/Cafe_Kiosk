@@ -31,4 +31,7 @@ public:
 	CSmoothie* smoothie;
 	CDessert* dessert;
 	virtual BOOL OnInitDialog();
+	CListCtrl m_listOrder;
+	afx_msg void OnBnClickedButtonSeldel();
+	afx_msg void OnBnClickedButtonAlldel();
 };
