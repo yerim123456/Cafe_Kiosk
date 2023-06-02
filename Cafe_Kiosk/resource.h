@@ -25,11 +25,11 @@
 #define IDD_ORDER1                      320
 #define IDD_ORDER                       320
 #define IDI_ICON1                       322
-#define IDI_ICON2                       323
-#define IDI_ICON3                       325
-#define IDI_ICON4                       326
-#define IDI_ICON5                       327
-#define IDI_ICON6                       328
+#define IDI_ICON2                       329
+#define IDI_ICON3                       330
+#define IDI_ICON4                       331
+#define IDI_ICON5                       332
+#define IDI_ICON6                       333
 #define IDC_TAB2                        1042
 #define IDC_TAB_TYPE                    1042
 #define IDC_LIST2                       1046
@@ -75,7 +75,7 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        329
+#define _APS_NEXT_RESOURCE_VALUE        334
 #define _APS_NEXT_COMMAND_VALUE         32771
 #define _APS_NEXT_CONTROL_VALUE         1078
 #define _APS_NEXT_SYMED_VALUE           310

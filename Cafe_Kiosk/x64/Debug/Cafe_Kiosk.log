@@ -4,9 +4,6 @@
   CSmoothie.cpp
   CTea.cpp
   Cafe_Kiosk.cpp
-  Cafe_KioskDoc.cpp
-  Cafe_KioskView.cpp
-  ChildFrm.cpp
-  MainFrm.cpp
   코드를 생성하고 있습니다...
+  LINK : C:\Users\LEE SEUNGRYUL\Documents\GitHub\Cafe_Kiosk\x64\Debug\Cafe_Kiosk.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
   Cafe_Kiosk.vcxproj -> C:\Users\LEE SEUNGRYUL\Documents\GitHub\Cafe_Kiosk\x64\Debug\Cafe_Kiosk.exe

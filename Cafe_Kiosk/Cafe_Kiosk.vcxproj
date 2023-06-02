@@ -231,6 +231,11 @@
     <Image Include="..\..\..\..\Downloads\Coffee_1.ico" />
     <Image Include="res\Cafe_Kiosk.ico" />
     <Image Include="res\Cafe_KioskDoc.ico" />
+    <Image Include="res\Coffee.ico" />
+    <Image Include="res\Coffee2.ico" />
+    <Image Include="res\Coffee3.ico" />
+    <Image Include="res\Coffee4.ico" />
+    <Image Include="res\Coffee5.ico" />
     <Image Include="res\icon1.ico" />
     <Image Include="res\icon3.ico" />
     <Image Include="res\Toolbar.bmp" />
